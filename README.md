@@ -1,6 +1,6 @@
 # Travel Explorer API App
 
-**Travel Explorer** adalah **aplikasi React Native** yang memungkinkan pengguna menemukan destinasi wisata, mengatur daftar favorit, dan memilih **metode pembayaran** sesuai kebutuhan. Aplikasi ini mengutamakan **UI bersih**, integrasi API melalui **MockAPI**, dan navigasi modern dengan **React Navigation**.  
+**Travel Explorer** adalah **aplikasi React Native** yang memungkinkan pengguna menemukan destinasi wisata, mengatur daftar favorit, dan memilih **metode pembayaran** sesuai kebutuhan. Aplikasi ini mengutamakan clean UI, integrasi API melalui **MockAPI**, dan navigasi modern dengan **React Navigation**.  
 
 ---
 
