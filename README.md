@@ -1,29 +1,29 @@
-# API Method App in Travel
+# Travel Explorer API App
 
-A **React Native application** that allows users to explore destinations, manage wishlists, and select their preferred **payment methods**. This app is designed with clean UI, API integration using **MockAPI**, and modern navigation flow using **React Navigation**.
-
----
-
-## 🚀 Features
-
-* 🏝️ **Explore Destinations** — View popular travel spots such as Labuan Bajo, Venezia, and Amsterdam.
-* 💖 **Wishlist System** — Add or remove destinations to your personalized wishlist.
-* 💵 **Payment Methods** — Choose between multiple secure payment options like Credit Card, PayPal, Google Pay, and Bank Transfer.
-* 🧭 **Smooth Navigation** — Seamless transitions between screens using React Navigation Stack.
-* ☁️ **MockAPI Integration** — Fetch destination and wishlist data from a live API endpoint.
+**Travel Explorer** adalah **aplikasi React Native** yang memungkinkan pengguna menemukan destinasi wisata, mengatur daftar favorit, dan memilih **metode pembayaran** sesuai kebutuhan. Aplikasi ini mengutamakan **UI bersih**, integrasi API melalui **MockAPI**, dan navigasi modern dengan **React Navigation**.  
 
 ---
 
-## 🧩 Tech Stack
+## ✨ Fitur Utama
 
-| Category      | Technology                          |
-| ------------- | ----------------------------------- |
-| Framework     | React Native                        |
-| Language      | TypeScript                          |
-| Navigation    | React Navigation                    |
-| API Service   | MockAPI.io                          |
-| UI Components | React Native Vector Icons, BlurView |
-| Data Fetching | Fetch API                           |
+* 🌄 **Jelajahi Destinasi** — Lihat berbagai destinasi populer seperti Labuan Bajo, Venezia, dan Amsterdam.  
+* 💌 **Wishlist Pribadi** — Tambahkan atau hapus destinasi favorit di daftar pribadi.  
+* 💰 **Pilihan Pembayaran** — Pilih dari beberapa metode pembayaran aman, termasuk Kartu Kredit, PayPal, Google Pay, dan Transfer Bank.  
+* 🏃‍♂️ **Navigasi Lancar** — Perpindahan antar layar yang mulus menggunakan React Navigation Stack.  
+* 🔗 **Integrasi MockAPI** — Ambil data destinasi dan wishlist dari API secara langsung.  
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+| Kategori       | Teknologi                             |
+| -------------- | ------------------------------------ |
+| Framework      | React Native                         |
+| Bahasa         | TypeScript                           |
+| Navigasi       | React Navigation                     |
+| Layanan API    | MockAPI.io                           |
+| Komponen UI    | React Native Vector Icons, BlurView  |
+| Pengambilan Data | Fetch API                          |
 
 ---
 
@@ -32,95 +32,51 @@ A **React Native application** that allows users to explore destinations, manage
 **Base URL:**
 
 ```
-https://68fc9df096f6ff19b9f5ba25.mockapi.io/ranggis
+https://690314b9d0f10a340b2286d7.mockapi.io/salwa
 ```
 
-**Endpoints:**
+**Daftar Endpoint:**
 
-| Endpoint        | Description                              |
-| --------------- | ---------------------------------------- |
-| `/destinations` | Get list of travel destinations          |
-| `/wishlist`     | Manage user wishlist (GET, POST, DELETE) |
-
-Example `destinations` JSON:
-
-```json
-[
-  {
-    "id": "1",
-    "name": "Labuan Bajo",
-    "image": "https://raw.githubusercontent.com/Ranggis/Api-Image/main/Labuan%20Bajo.png",
-    "description": "Destinasi tropis dengan pemandangan laut yang menakjubkan.",
-    "screen": "DetailLabuanBajoScreen"
-  },
-  {
-    "id": "2",
-    "name": "Venezia",
-    "image": "https://raw.githubusercontent.com/Ranggis/Api-Image/main/venezia.png",
-    "description": "Kota air romantis dengan gondola dan arsitektur klasik.",
-    "screen": "DetailVeneziaScreen"
-  },
-  {
-    "id": "3",
-    "name": "Amsterdam",
-    "image": "https://raw.githubusercontent.com/Ranggis/Api-Image/main/amsterdam.png",
-    "description": "Kota kanal indah di Belanda dengan budaya yang unik dan kehidupan malam yang ramai.",
-    "screen": "DetailAmsterdamScreen"
-  }
-]
-```
+| Endpoint        | Fungsi                                  |
+| --------------- | --------------------------------------- |
+| `/destinations` | Mengambil daftar destinasi wisata       |
+| `/wishlist`     | Kelola daftar favorit pengguna (GET, POST, DELETE) |
 
 ---
 
-## 📱 Screens Overview
+## 📱 Tinjauan Layar
 
-| Screen                  | Description                                |
-| ----------------------- | ------------------------------------------ |
-| **StartScreen**         | Landing page with start exploration button |
-| **HomeScreen**          | Main screen displaying destinations        |
-| **DetailScreen**        | Detailed view of selected destination      |
-| **WishlistScreen**      | Displays saved destinations                |
-| **ProfileScreen**       | User profile & settings                    |
-| **PaymentMethodScreen** | Choose payment method for booking          |
-| **HelpSupportScreen**   | Contact & support page                     |
-| **Settings Screen**     | Settings Page                              |
-
----
-
-## 🖼️ Screenshots
-
-| Start Screen                            | Home Screen                              | Ticket Screen                               | Profil Screen                        |
-| ------------------------------- | ----------------------------------- | --------------------------------------- | ------------------------------------- |
-| ![Start Screen](https://github.com/Ranggis/TUGAS-PEMROGRAMAN-PERANGKAT-MOBILE-SESI-6-API-TRAVEL-APP/blob/main/Hasil%20Implementasi/Screenshot_2025-10-25-22-01-52-74_c5521371e7af5ef65d6934ac1923943a.jpg) | ![Home Screen](https://github.com/Ranggis/TUGAS-PEMROGRAMAN-PERANGKAT-MOBILE-SESI-6-API-TRAVEL-APP/blob/main/Hasil%20Implementasi/Screenshot_2025-10-25-22-01-57-75_c5521371e7af5ef65d6934ac1923943a.jpg) | ![Ticket Screen](https://github.com/Ranggis/TUGAS-PEMROGRAMAN-PERANGKAT-MOBILE-SESI-6-API-TRAVEL-APP/blob/main/Hasil%20Implementasi/Screenshot_2025-10-25-22-02-08-02_c5521371e7af5ef65d6934ac1923943a.jpg) | ![Profil Screen](https://github.com/Ranggis/TUGAS-PEMROGRAMAN-PERANGKAT-MOBILE-SESI-6-API-TRAVEL-APP/blob/main/Hasil%20Implementasi/Screenshot_2025-10-25-22-02-10-42_c5521371e7af5ef65d6934ac1923943a.jpg) |
-
-| Whistlist Screen                            | Labuan Bajo Screen                              | Venexia Screen                               | Amsterdam Screen                        |
-| ------------------------------- | ----------------------------------- | --------------------------------------- | ------------------------------------- |
-| ![Whistlist Screen](https://github.com/Ranggis/TUGAS-PEMROGRAMAN-PERANGKAT-MOBILE-SESI-6-API-TRAVEL-APP/blob/main/Hasil%20Implementasi/Screenshot_2025-10-25-22-02-17-41_c5521371e7af5ef65d6934ac1923943a.jpg) | ![Labuan Bajo Screen](https://github.com/Ranggis/TUGAS-PEMROGRAMAN-PERANGKAT-MOBILE-SESI-6-API-TRAVEL-APP/blob/main/Hasil%20Implementasi/Screenshot_2025-10-25-22-01-57-75_c5521371e7af5ef65d6934ac1923943a.jpg) | ![Venexia Screen](https://github.com/Ranggis/TUGAS-PEMROGRAMAN-PERANGKAT-MOBILE-SESI-6-API-TRAVEL-APP/blob/main/Hasil%20Implementasi/Screenshot_2025-10-25-22-02-40-98_c5521371e7af5ef65d6934ac1923943a.jpg) | ![Amsterdam Screen](https://github.com/Ranggis/TUGAS-PEMROGRAMAN-PERANGKAT-MOBILE-SESI-6-API-TRAVEL-APP/blob/main/Hasil%20Implementasi/Screenshot_2025-10-25-22-02-44-42_c5521371e7af5ef65d6934ac1923943a.jpg) |
-
-| Payment Screen                            | Help & Support Screen                              | Settings Screen                               |
-| ------------------------------- | ----------------------------------- | --------------------------------------- |
-| ![Payment Screen](https://github.com/Ranggis/TUGAS-PEMROGRAMAN-PERANGKAT-MOBILE-SESI-6-API-TRAVEL-APP/blob/main/Hasil%20Implementasi/Screenshot_2025-10-25-22-02-27-21_c5521371e7af5ef65d6934ac1923943a.jpg) | ![Help & Support Screen](https://github.com/Ranggis/TUGAS-PEMROGRAMAN-PERANGKAT-MOBILE-SESI-6-API-TRAVEL-APP/blob/main/Hasil%20Implementasi/Screenshot_2025-10-25-22-02-31-63_c5521371e7af5ef65d6934ac1923943a.jpg) | ![Settings Screen](https://github.com/Ranggis/TUGAS-PEMROGRAMAN-PERANGKAT-MOBILE-SESI-6-API-TRAVEL-APP/blob/main/Hasil%20Implementasi/Screenshot_2025-10-25-22-02-51-18_c5521371e7af5ef65d6934ac1923943a.jpg) |
+| Layar                  | Fungsi                                      |
+| ---------------------- | ------------------------------------------ |
+| **StartScreen**        | Halaman awal dengan tombol mulai eksplorasi |
+| **HomeScreen**         | Menampilkan daftar destinasi utama         |
+| **DetailScreen**       | Menampilkan info lengkap destinasi terpilih |
+| **WishlistScreen**     | Menampilkan destinasi favorit pengguna     |
+| **ProfileScreen**      | Profil pengguna dan pengaturan             |
+| **PaymentMethodScreen**| Pilihan metode pembayaran                  |
+| **HelpSupportScreen**  | Halaman kontak & dukungan                  |
+| **SettingsScreen**     | Halaman pengaturan                         |
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Cara Menginstall
 
-1. Clone this repository
+1.  Clone repository ini  
 
    ```bash
-   git clone https://github.com/yourusername/TravelApp.git
+   git clone https://github.com/salwaaprsn/API.git
    ```
-2. Navigate into the folder
+2. Masuk ke folder projek
 
    ```bash
-   cd TravelApp
+   cd API
    ```
-3. Install dependencies
+3. Install semua dependencies
 
    ```bash
    npm install
    ```
-4. Start the project
+4. Jalankan aplikasi
 
    ```bash
    npx react-native start
@@ -128,18 +84,10 @@ Example `destinations` JSON:
 
 ---
 
-## 🧠 Developer Notes
+## 👨‍💻 Penulis
 
-* All API data is fetched from **MockAPI.io**, ensuring easy testing and modification.
-* Images are hosted on GitHub using the **raw.githubusercontent.com** path.
-* Each feature is modular and can be extended (e.g., add login, dark mode, or real payment gateway integration).
+**Nama: Salwa Aprilia Santi**
+**Kelas: TI23F**
 
----
-
-## 👨‍💻 Author
-
-**Ranggis**
-*Developed with ☕ using React Native and TypeScript*
-
-📧 Email: [ranggis@example.com](mailto:ranggis@gmail.com)
-🌐 GitHub: [@Ranggis](https://github.com/Ranggis)
+📧 Email: [salwaaprsn@example.com]
+🌐 GitHub: [@salwaaprsn](https://github.com/salwaaprsn)
