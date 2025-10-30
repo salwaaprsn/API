@@ -90,6 +90,6 @@ https://690314b9d0f10a340b2286d7.mockapi.io/salwa
 
 **Kelas: TI23F**
 
-📧 Email: [salwaaprsn@example.com]
+📧 Email: [salwaaprsn@gmail.com]
 
 🌐 GitHub: [@salwaaprsn](https://github.com/salwaaprsn)
